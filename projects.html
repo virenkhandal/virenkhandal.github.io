@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="jquery-3.3.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="projects.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta charset="UTF-8" />
+<title>Viren Khandal</title>
+</head>
+<body>
+	<div class="navbar">
+    <nav>
+     <div>
+          <ul>
+              <li class="navitem"><a href="index.html">Home</a></li>
+        <!--      <li><a href="https://www.linkedin.com/in/viren-khandal/" target="_blank">Linkedin</a></li>
+              <li><a href="https://github.com/virenkhandal" target="_blank">github </a></li>
+              <li><a href="mailto:virenkhandal@berkeley.edu" target="_blank">email</a></li> 
+              <li class="navitem"> <a href="#workexperience">Experience</a></li> -->
+              <li class="navitem"> <a href="#projects">Projects</a></li>
+          </ul>
+
+      </div>
+    </nav>
+</div>
+	<div id="projectsheader">
+		<h1> Projects </h1>
+	</div>
+	<div id="gitletimg">
+		<img src="gitletimg.png" alt="gitlet">
+	</div>
+	
+	
+	
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+</script>
+</body>
+</html>

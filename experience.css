@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+	display: block;
+	background-color: #D9E5F4;
+}
+.uk-navbar-nav{
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	width: 60px;
+}
+.navitem{
+	display: inline;
+}
+.welcome{
+	float:right;
+	margin-right:100px;
+	margin-left: 700px;
+}
+#intro{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	margin-top: 100px;
+	margin-right: 200px;
+}
+#name{
+	font-family: 'Oswald', sans-serif;
+	margin-top: -30px;
+	letter-spacing: 2px;
+	font-size: 50px;
+	margin-right: 200px;
+}
+#bio{
+	word-wrap:break-word;
+	float:right;
+	overflow-wrap: break-word;
+	font-family: 'Oswald', sans-serif;
+	line-height: 30px;
+}
+.photos{
+	vertical-align: center;
+}
+.slideshow{
+	float: left;
+	max-width: 400px;
+	max-height: 400px;
+	margin-left: 200px;
+	margin-top: -300px;
+}
+#leftbutton{
+	float:left;
+	margin-left:200px;
+	margin-top: -25px;
+}
+#rightbutton{
+	float:left;
+	margin-right:766px;
+	margin-top: -25px;
+}
+.headings{
+	float: left;
+	margin-top: 150px;
+	text-align: center;
+}
+#experiences{
+	font-family: 'Oswald', sans-serif;
+}
+.experiences{
+	margin-top: 100px;
+	margin-right: 300px;
+	margin-left: 100px;
+}

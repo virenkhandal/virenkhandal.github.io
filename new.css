@@ -1,0 +1,115 @@
+body{
+	display: grid;
+	grid-template-columns: 8% 28% 28% 28% 8%;
+	grid-template-rows: 60px 500px 100px 60px 300px 300px 60px;
+	background-color: #FCDED8;
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+	overflow: scroll;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+}
+
+#navbar{
+	grid-area: 1 / 1 / 2 / 5;
+}
+
+.navitem{
+	display: inline;
+}
+
+#welcomeSign{
+	grid-area: 2 / 4 / 3 / 5;
+	text-align: center;
+}
+
+#slideshow{
+	grid-area: 2 / 2 / 3 / 3;
+}
+
+#media{
+	grid-area: 3 / 1 / 4 / 5;
+	
+}
+
+#experienceHeader{
+	grid-area: 4 / 3 / 5 / 4;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+}
+
+#csm{
+	grid-area: 5 / 2 / 6 / 3;
+	border-radius: 50px;
+  	background-image: url('csmlogo.png');
+  	width: 80%;
+  	height: 80%;
+  	padding: 20px;
+  	justify-content: center;
+  	align-content: center;
+  	align-self: center;
+  	border: 1px solid black;
+}
+
+#onf{
+	grid-area: 5 / 3 / 6 / 4;
+	border-radius: 50px;
+  	background-image: url('onf.png');
+  	width: 80%;
+  	height: 80%;
+  	justify-content: center;
+  	align-content: center;
+  	align-self: center;
+  	border: 1px solid black;
+  	padding: 20px;
+}
+
+#eco{
+	grid-area: 5 / 4 / 6 / 5;
+	border-radius: 50px;
+  	background-image: url('background.jpg');
+  	width: 80%;
+  	height: 80%;
+  	justify-content: center;
+  	align-content: center;
+  	align-self: center;
+  	border: 1px solid black;
+  	padding: 20px;
+}
+#jr{
+	grid-area: 6 / 2 / 7 / 3;
+	border-radius: 50px;
+  	background-image: url('csmlogo.png');
+  	width: 80%;
+  	height: 80%;
+  	justify-content: center;
+  	align-content: center;
+  	align-self: center;
+  	border: 1px solid black;
+  	padding: 20px;
+}
+#hack{
+	grid-area: 6 / 3 / 7 / 4;
+	border-radius: 50px;
+  	background-image: url('csmlogo.png');
+  	width: 80%;
+  	height: 80%;
+  	justify-content: center;
+  	align-content: center;
+  	align-self: center;
+  	border: 1px solid black;
+  	padding: 20px;
+}
+#aws{
+	grid-area: 6 / 4 / 7 / 5;
+	border-radius: 50px;
+  	background-image: url('csmlogo.png');
+  	width: 80%;
+  	height: 80%;
+  	justify-content: center;
+  	align-content: center;
+  	align-self: center;
+  	border: 1px solid black;
+  	padding: 20px;
+}
