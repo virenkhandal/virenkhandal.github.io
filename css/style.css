@@ -44,8 +44,8 @@ body {
 
 .socialbtn i{
   line-height: 60px;
-  font-size: 26px;
-  transition: 0.2s linear;
+  font-size: 30px;
+  transition: 0.4s linear;
 }
 
 .socialbtn:hover i{
@@ -65,7 +65,7 @@ body {
 }
 
 .socialbtn:hover::before{
-  animation: aaa 0.7s 1;
+  animation: aaa 1.0s 1;
   top: -10%;
   left: -10%;
 }
