@@ -837,7 +837,7 @@
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="mailto:virenkhandal@berkeley.edu?subject=subject&body=body" target="_blank" id="contactform">
+									<form id="contactform">
 										<div class="form-group">
 											<input type="text" class="form-control" placeholder="Name">
 										</div>
@@ -851,7 +851,7 @@
 											<textarea form="contactform" name="body" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+											<a href="mailto:virenkhandal@berkeley.edu?subject=subject&body=body" target="_top"><input type="submit" class="btn btn-primary btn-send-message" value="Send Message"></a>
 										</div>
 									</form>
 								</div>
