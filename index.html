@@ -845,10 +845,10 @@
 											<input type="text" class="form-control" placeholder="Email">
 										</div> -->
 										<div class="form-group">
-											<input type="text" class="form-control" name="subject" placeholder="Subject">
+											<input type="text" class="form-control" id="subject" placeholder="Subject">
 										</div>
 										<div class="form-group">
-											<textarea form="contactform" name="body" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+											<textarea form="contactform"id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 										</div>
 										<div class="form-group">
 											<input type="submit" onclick="sendEmail()" class="btn btn-primary btn-send-message" value="Send Message">
@@ -867,7 +867,9 @@
 	</div><!-- end:colorlib-page -->
 	<script>
 		function sendEmail(){
-    		window.location = "mailto:virenkhandal@berkeley.edu?subject=subject&body=body";
+			subject = document.getElementById("subject")
+			body = document.getElementById("message")
+    		window.location = "mailto:virenkhandal@berkeley.edu?subject=subject&body=message";
 		}	
 	</script>
 	<!-- jQuery -->
