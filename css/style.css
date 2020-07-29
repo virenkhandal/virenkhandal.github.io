@@ -43,7 +43,7 @@ body {
 }
 
 .socialbtn i{
-  line-height: 60px;
+  line-height: 45px;
   font-size: 30px;
   transition: 0.4s linear;
 }
@@ -87,11 +87,14 @@ a {
   color: #00cec9;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
-  a:hover, a:active, a:focus {
-    color: #00cec9;
-    outline: none;
-    text-decoration: none !important; }
+  transition: 0.5s; 
+}
+  
+a:hover, a:active, a:focus {
+  color: #00cec9;
+  outline: none;
+  text-decoration: none !important; 
+}
 
 p {
   margin-bottom: 1.5em; }
@@ -217,7 +220,8 @@ figure {
             bottom: 7px;
             left: 0;
             right: 0;
-            background-color: #00cec9;
+            /*This creates the underline effect for links*/
+            /*background-color: #00cec9;*/
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
