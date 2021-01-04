@@ -50,7 +50,8 @@ body {
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: "\2600\FE0F";
+  align-content: center;
   height: 26px;
   width: 26px;
   left: 4px;
@@ -61,7 +62,8 @@ body {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  content: "\01F319";
+  background-color: #390c60;
 }
 
 input:focus + .slider {
