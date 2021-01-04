@@ -92,8 +92,12 @@
 			</nav>
 
 		</aside>
-
+		
 		<div id="colorlib-main">
+			<label class="switch">
+				<input type="checkbox">
+				<span class="slider round"></span>
+			</label>
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
@@ -709,6 +713,12 @@
 			var bruh2 = document.getElementById("message").value;
     		window.location = `mailto:virenkhandal@berkeley.edu?subject=${bruh1}&body=${bruh2}`;
 		}	
+
+		function darkMode(){
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+		}
+
 	</script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
