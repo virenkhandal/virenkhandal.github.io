@@ -42,7 +42,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #390c60;
+  background-color: #14478D;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -99,11 +99,11 @@ input:checked + .slider:before {
   display: inline-block;
   width: 60px;
   height: 60px;
-  background: #f1f1f1;
+  background: rgb(14, 18, 24);
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color: #00cec9;
+  color: #14478D;
   overflow: hidden;
   position: relative;
 }
@@ -124,7 +124,7 @@ input:checked + .slider:before {
   position: absolute;
   width: 100px;
   height: 120%;
-  background: #00cec9;
+  background: #14478D;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -150,14 +150,14 @@ input:checked + .slider:before {
 }
 
 a {
-  color: #00cec9;
+  color: #132032;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; 
 }
   
 a:hover, a:active, a:focus {
-  color: #00cec9;
+  color: #132032;
   outline: none;
   text-decoration: none !important; 
 }
@@ -188,15 +188,15 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #00cec9; }
+  background: #132032; }
 
 ::-moz-selection {
   color: #fff;
-  background: #00cec9; }
+  background: #132032; }
 
 ::selection {
   color: #fff;
-  background: #00cec9; }
+  background: #132032; }
 
 #colorlib-page {
   width: 100%;
@@ -212,7 +212,7 @@ figure {
   overflow-y: scroll;
   z-index: 1001;
   /* EDIT: color here changes color of background of main menu */
-  background: #F2FCFC;
+  background: #132032;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -250,7 +250,7 @@ figure {
       display: block;
       text-align: center;
       /* EDIT: changes color of "Viren Khandal" in main menu */
-      color: #000;
+      color: white;
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
@@ -274,7 +274,7 @@ figure {
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
           /* EDIT: color here changed main menu item font color*/
-          color: rgba(0, 0, 0, 0.7);
+          color: white;
           text-decoration: none;
           position: relative;
           padding: 10px 0;
@@ -290,7 +290,7 @@ figure {
             left: 0;
             right: 0;
             /*This creates the underline effect for links*/
-            /*background-color: #00cec9;*/
+            /*background-color: #132032;*/
             visibility: hidden;
             -webkit-transform: scaleX(0);
             -moz-transform: scaleX(0);
@@ -314,7 +314,7 @@ figure {
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
           /* EDIT: changes color of active menu item */
-          color: #00cec9; }
+          color: #14478D; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -349,7 +349,7 @@ figure {
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #00cec9; }
+            color: #132032; }
 
 .container-wrap {
   max-width: 1170px;
@@ -369,13 +369,14 @@ figure {
 #colorlib-hero {
   min-height: 500px;
   /* Changes color behind "white.png" */
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: rgb(14, 18, 24) url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
+    background-color: rgb(14, 18, 24);
     z-index: 1;
     margin-bottom: 0; }
     #colorlib-hero .flexslider .slides {
@@ -410,7 +411,7 @@ figure {
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #00cec9; }
+            border: 2px solid #132032; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
@@ -600,7 +601,8 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #8CDEDC;
+  /* EDIT: change color of education title boxes */
+  background-color: #14478D;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -626,7 +628,8 @@ body.offcanvas {
   font-weight: 400;
   top: 50%;
   line-height: 1;
-  margin-top: -7px; }
+  margin-top: -7px; 
+}
 
 .panel-heading a.collapsed:after {
   content: "\e114"; }
@@ -638,10 +641,11 @@ body.offcanvas {
 
 .panel-body {
   padding: 1.5em;
-  margin-top: 5px;
+  /* margin-top: 0.5px; */
   /* EDIT: changes color and border of education boxes */
-  background-color: rgb(14, 18, 24);
-  border: 1px solid #e6e6e6 !important; }
+  background-color: #132032;
+  /* border: 1px solid #e6e6e6 !important;  */
+}
 
 .timeline-centered {
   position: relative;
@@ -666,7 +670,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #f2f3f7;
+  background: #14478D;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -686,7 +690,7 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background: #00cec9;
+  background: #132032;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -708,7 +712,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
-    background: #fff;
+    background: #14478D;
     width: 20px;
     height: 20px;
     margin-left: 10px; }
@@ -716,7 +720,7 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
   /* EDIT: changes color of work experience box */
-  background: #3A4B63;
+  background: #132032;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -745,7 +749,7 @@ body.offcanvas {
   font-weight: 500; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
-  color: #000; }
+  color: white; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
   -webkit-opacity: .4;
@@ -763,13 +767,13 @@ body.offcanvas {
   -ms-box-shadow: 0px 0px 30px -4px white;
   -o-box-shadow: 0px 0px 30px -4px white;
   box-shadow: 0px 0px 30px -4px white;
-  border-bottom: 2px solid #00cec9; }
+  border-bottom: 2px solid #132032; }
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
     .services .icon2 i {
       font-size: 30px;
-      color: #00cec9; }
+      color: #132032; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
@@ -807,7 +811,7 @@ body.offcanvas {
     height: 50px;
     display: table;
     margin: 0 auto;
-    background: #00cec9; }
+    background: #132032; }
     .services .icon:before, .services .icon:after {
       position: absolute;
       left: 0;
@@ -819,14 +823,14 @@ body.offcanvas {
       height: 0;
       border-style: solid;
       border-width: 0 50px 30px 50px;
-      border-color: transparent transparent #00cec9 transparent; }
+      border-color: transparent transparent #132032 transparent; }
     .services .icon:after {
       bottom: -30px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 30px 50px 0 50px;
-      border-color: #00cec9 transparent transparent transparent; }
+      border-color: #132032 transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;
       color: #fff;
@@ -883,7 +887,7 @@ body.offcanvas {
   overflow: visible; }
 
 .progress-bar {
-  background: #00cec9;
+  background: #132032;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
@@ -904,7 +908,7 @@ body.offcanvas {
     width: 10px;
     height: 10px;
     content: '';
-    background: #00cec9;
+    background: #132032;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -914,11 +918,11 @@ body.offcanvas {
     top: -22px;
     right: 0; }
   .progress-bar.color-1 {
-    background: #00cec9; }
+    background: #132032; }
     .progress-bar.color-1:after {
-      background: #00cec9; }
+      background: #132032; }
     .progress-bar.color-1 span {
-      color: #00cec9; }
+      color: #132032; }
   .progress-bar.color-2 {
     background: #ec5453; }
     .progress-bar.color-2:after {
@@ -972,7 +976,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #00cec9;
+      color: #14478D;
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -994,7 +998,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #00cec9;
+    color: #14478D;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -1066,10 +1070,11 @@ body.offcanvas {
   .work-menu span a {
     color: #000; }
     .work-menu span a.active {
-      color: #00cec9; }
+      color: #132032; }
 
 .project {
   background-size: cover;
+  background-color: #132032;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -1083,7 +1088,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #00cec9;
+    background: #132032;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1197,7 +1202,7 @@ body.offcanvas {
       width: 100px;
       height: 100px;
       font-size: 50px;
-      color: #00cec9;
+      color: #14478D;
       background: #fff;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -1249,11 +1254,11 @@ body.offcanvas {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #00cec9; }
+        color: #14478D; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #00cec9; }
+        color: #14478D; }
 
 #map {
   width: 100%;
@@ -1285,19 +1290,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #00cec9;
+        background: #14478D;
         color: #fff;
-        border: 1px solid #00cec9; }
+        border: 1px solid #14478D; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #00cec9;
-      border: 1px solid #00cec9 !important; }
+      background: #14478D;
+      border: 1px solid #14478D !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #00cec9;
+        background: #14478D;
         color: #fff;
-        border: 1px solid #00cec9 !important; }
+        border: 1px solid #14478D !important; }
 
 .btn {
   margin-right: 4px;
@@ -1327,18 +1332,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #00cec9;
+  background: #14478D;
   color: #fff;
-  border: 2px solid #00cec9; }
+  border: 2px solid #14478D; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #00cec9;
-    border: 2px solid #00cec9; }
+    color: #14478D;
+    border: 2px solid #14478D; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #00cec9;
+      background: #14478D;
       color: #fff; }
 
 .btn-success {
