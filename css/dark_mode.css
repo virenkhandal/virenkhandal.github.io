@@ -124,7 +124,7 @@ input:checked + .slider:before {
   position: absolute;
   width: 100px;
   height: 120%;
-  background: #14478D;
+  background: #DAA520;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -250,8 +250,9 @@ figure {
       display: block;
       text-align: center;
       /* EDIT: changes color of "Viren Khandal" in main menu */
-      color: white;
-      padding-right: .3em; }
+      color: #DAA520;
+      padding-left: 10px; 
+    }
   #colorlib-aside #colorlib-main-menu {
     display: block;
     width: 100%; }
@@ -304,7 +305,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color: rgb(0, 0, 0); }
+            color: #DAA520; }
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -314,7 +315,8 @@ figure {
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
           /* EDIT: changes color of active menu item */
-          color: #14478D; }
+          color: #14478D; 
+          font-weight: bold;}
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -562,7 +564,7 @@ body.offcanvas {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
-  color: #999999;
+  color: #DAA520;
   font-weight: 500;
   letter-spacing: 5px; }
 
@@ -575,7 +577,8 @@ body.offcanvas {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .hire {
   padding: 2em;
@@ -635,8 +638,8 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #f2f3f7;
-  border: 1px solid #e6e6e6 !important;
+  background: #abb0c1;
+  border: 1px solid #14478D !important;
   color: #333333; }
 
 .panel-body {
@@ -696,9 +699,9 @@ body.offcanvas {
   -ms-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px #f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
+  -moz-box-shadow: 0 0 0 5px #14478D;
+  -webkit-box-shadow: 0 0 0 5px #14478D;
+  box-shadow: 0 0 0 5px #14478D;
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
@@ -762,18 +765,18 @@ body.offcanvas {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
-  -webkit-box-shadow: 0px 0px 30px -4px white;
-  -moz-box-shadow: 0px 0px 30px -4px white;
-  -ms-box-shadow: 0px 0px 30px -4px white;
-  -o-box-shadow: 0px 0px 30px -4px white;
-  box-shadow: 0px 0px 30px -4px white;
+  -webkit-box-shadow: 0px 0px 30px -4px #DAA520;
+  -moz-box-shadow: 0px 0px 30px -4px #DAA520;
+  -ms-box-shadow: 0px 0px 30px -4px #DAA520;
+  -o-box-shadow: 0px 0px 30px -4px #DAA520;
+  box-shadow: 0px 0px 30px -4px #DAA520;
   border-bottom: 2px solid #132032; }
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
     .services .icon2 i {
       font-size: 30px;
-      color: #132032; }
+      color: #14478D; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
@@ -908,7 +911,7 @@ body.offcanvas {
     width: 10px;
     height: 10px;
     content: '';
-    background: #132032;
+    background: #14478D;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -918,11 +921,11 @@ body.offcanvas {
     top: -22px;
     right: 0; }
   .progress-bar.color-1 {
-    background: #132032; }
+    background: #14478D; }
     .progress-bar.color-1:after {
-      background: #132032; }
+      background: #14478D; }
     .progress-bar.color-1 span {
-      color: #132032; }
+      color: #14478D; }
   .progress-bar.color-2 {
     background: #ec5453; }
     .progress-bar.color-2:after {
@@ -1332,9 +1335,9 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #14478D;
+  background: #DAA520;
   color: #fff;
-  border: 2px solid #14478D; }
+  border: 2px solid #DAA520; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
