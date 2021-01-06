@@ -305,7 +305,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color: #DAA520; }
+            color: #14478D; }
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -315,7 +315,7 @@ figure {
               transform: scaleX(1); }
         #colorlib-aside #colorlib-main-menu ul li.active a {
           /* EDIT: changes color of active menu item */
-          color: #14478D; 
+          color: #DAA520; 
           font-weight: bold;}
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;
@@ -673,7 +673,7 @@ body.offcanvas {
   position: absolute;
   display: block;
   width: 4px;
-  background: #14478D;
+  background: #DAA520;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -715,7 +715,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
-    background: #14478D;
+    background: #DAA520;
     width: 20px;
     height: 20px;
     margin-left: 10px; }
