@@ -561,7 +561,7 @@ body.offcanvas {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
-  color: #999999;
+  color: #216178;
   font-weight: 500;
   letter-spacing: 5px; }
 
@@ -757,11 +757,11 @@ body.offcanvas {
 .services {
   margin-bottom: 30px;
   padding: 1.5em;
-  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: 0px 0px 40px -8px #216178;
+  -moz-box-shadow: 0px 0px 40px -8px #216178;
+  -ms-box-shadow: 0px 0px 40px -8px #216178;
+  -o-box-shadow: 0px 0px 40px -8px #216178;
+  box-shadow: 0px 0px 40px -8px #216178;
   border-bottom: 2px solid #216178; }
   .services .icon2 {
     display: block;
