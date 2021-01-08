@@ -116,6 +116,7 @@ input:checked + .slider:before {
   line-height: 45px;
   font-size: 30px;
   transition: 0.4s linear;
+  color: black;
 }
 
 .socialbtn:hover i{
