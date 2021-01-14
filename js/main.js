@@ -47,8 +47,8 @@
 
 
 	var counterWayPoint = function() {
-		if ($('#personal-counter').length > 0 ) {
-			$('#personal-counter').waypoint( function( direction ) {
+		if ($('#pweb-counter').length > 0 ) {
+			$('#pweb-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( counter , 400);					
@@ -98,7 +98,7 @@
 
 	var burgerMenu = function() {
 
-		$('.js-personal-nav-toggle').on('click', function(event){
+		$('.js-pweb-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
 
@@ -119,13 +119,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#personal-aside, .js-personal-nav-toggle");
+	    var container = $("#pweb-aside, .js-pweb-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-personal-nav-toggle').removeClass('active');
+    			$('.js-pweb-nav-toggle').removeClass('active');
 			
 	    	}
 	    	
@@ -136,7 +136,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-personal-nav-toggle').removeClass('active');
+    			$('.js-pweb-nav-toggle').removeClass('active');
 			
 	    	}
 		});
@@ -158,7 +158,7 @@
 		    if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
 		    	navbar.attr('aria-expanded', 'false');
-		    	$('.js-personal-nav-toggle').removeClass('active');
+		    	$('.js-pweb-nav-toggle').removeClass('active');
 		    }
 
 		    event.preventDefault();
@@ -209,7 +209,7 @@
 
 	var sliderMain = function() {
 		
-	  	$('#personal-hero .flexslider').flexslider({
+	  	$('#pweb-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,

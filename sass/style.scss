@@ -175,12 +175,12 @@ figure {
   background: $brand-primary;
 }
 
-#personal-page {
+#pweb-page {
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#personal-aside {
+#pweb-aside {
 	padding-top: 3em;
 	padding-bottom: 40px;
 	float: left;
@@ -210,7 +210,7 @@ figure {
 		font-size: 12px;
 		text-transform: uppercase;
 	}
-	#personal-logo {
+	#pweb-logo {
 		text-align: right;
 		font-weight: 700;
 		font-size: 22px;
@@ -224,7 +224,7 @@ figure {
 			padding-right: .3em;
 		}
 	}
-	#personal-main-menu {
+	#pweb-main-menu {
 		display: block;
 		width: 100%;
 		.collapse{
@@ -302,7 +302,7 @@ figure {
 			}
 		}
 	}
-	.personal-footer {
+	.pweb-footer {
 		font-size: 15px;
 		text-align: center;
 		font-weight: 400;
@@ -342,7 +342,7 @@ figure {
 	max-width: 1170px;
 	margin: 0 auto;
 }
-#personal-main {
+#pweb-main {
 	width: calc(100% - 300px);
 	float: right;
 	@include transition(.5s);
@@ -353,7 +353,7 @@ figure {
 }
 
 
-#personal-hero {
+#pweb-hero {
 	min-height: 500px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
 	width: 100%;
@@ -454,7 +454,7 @@ figure {
 						font-size: 30px;
 					}
 				}s
-				.personal-lead{
+				.pweb-lead{
 					font-size: 20px;
 					color: $brand-white;
 				}
@@ -491,21 +491,21 @@ figure {
 body {
 	&.offcanvas {
 		overflow-x: hidden;
-		#personal-aside {
+		#pweb-aside {
 			@include translateX(0);
 			width: 300px;
 			background: $brand-gray;
 			z-index: 999;
 			position: fixed;
 		}
-		#personal-main, .personal-nav-toggle {
+		#pweb-main, .pweb-nav-toggle {
 			top: 0;
 			@include translateX(300px);
 		}
 	}
 }
 
-.personal-narrow-content{
+.pweb-narrow-content{
 	padding: 0 2.5em;
 	@media screen and(max-width: $screen-sm){
 		padding: 0;
@@ -516,14 +516,14 @@ body {
 	padding: 0;
 }
 
-.personal-experience,
-.personal-skills,
-.personal-education,
-.personal-blog,
-.personal-work,
-.personal-about,
-.personal-services,
-.personal-contact{
+.pweb-experience,
+.pweb-skills,
+.pweb-education,
+.pweb-blog,
+.pweb-work,
+.pweb-about,
+.pweb-services,
+.pweb-contact{
 	padding-top: 4em;
 	padding-bottom: 9em;
 	clear: both;
@@ -546,7 +546,7 @@ body {
 	position: relative;
 }
 
-.personal-heading {
+.pweb-heading {
 	font-size: 18px;
 	margin-bottom: 4em;
 	font-weight: 700;
@@ -1057,13 +1057,13 @@ margin-left: -20px;
 }
 
 
-.personal-feature {
+.pweb-feature {
 	text-align: left;
 	width: 100%;
 	float: left;
 	margin-bottom: 40px;
 	position: relative;
-	.personal-icon {
+	.pweb-icon {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -1084,7 +1084,7 @@ margin-left: -20px;
 			}
 		}
 	}
-	.personal-text {
+	.pweb-text {
 		padding-left: 120px;
 		width: 100%;
 		h2, h3 {
@@ -1100,11 +1100,11 @@ margin-left: -20px;
 			text-transform: uppercase;
 		}
 	}
-	&.personal-feature-sm {
-		.personal-text {
+	&.pweb-feature-sm {
+		.pweb-text {
 			margin-top: 30px;
 		}
-		.personal-icon {
+		.pweb-icon {
 			i {
 				color: $brand-primary;
 				font-size: 40px;
@@ -1315,12 +1315,12 @@ margin-left: -20px;
 
 
 //COUNTER
-#personal-counter{
+#pweb-counter{
 	position: relative;
 	clear: both;
 	margin-bottom: 5em;
 }
-.personal-counters {
+.pweb-counters {
 	padding: 3em 0;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1354,7 +1354,7 @@ margin-left: -20px;
 	.counter-wrap{
 		border: 1px solid red !important;
 	}
-	.personal-counter {
+	.pweb-counter {
 		font-size: 40px;
 		display: block;
 		color: rgba($brand-white,1);
@@ -1363,7 +1363,7 @@ margin-left: -20px;
 		font-weight: 700;
 		margin-bottom: .3em;
 	}
-	.personal-counter-label {
+	.pweb-counter-label {
 		color: rgba($brand-white,.7);
 		text-transform: uppercase;
 		font-size: 14px;
@@ -1374,7 +1374,7 @@ margin-left: -20px;
 }
 
 
-.personal-social {
+.pweb-social {
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -1413,7 +1413,7 @@ margin-left: -20px;
 	}
 }
 
-.personal-bg-color{
+.pweb-bg-color{
 	background: lighten($brand-black,98%);
 	position: relative;
 }
@@ -1608,7 +1608,7 @@ margin-left: -20px;
 }
 
 // Burger Menu
-.personal-nav-toggle {
+.pweb-nav-toggle {
   cursor: pointer;
   text-decoration: none;
   &.active i {
@@ -1662,22 +1662,22 @@ margin-left: -20px;
   }
 }
 
-.personal-nav-toggle i::before {
+.pweb-nav-toggle i::before {
   top: -7px;
 }
-.personal-nav-toggle i::after {
+.pweb-nav-toggle i::after {
   bottom: -7px;
 }
-.personal-nav-toggle:hover i::before {
+.pweb-nav-toggle:hover i::before {
   top: -10px;
 }
-.personal-nav-toggle:hover i::after {
+.pweb-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.personal-nav-toggle.active i {
+.pweb-nav-toggle.active i {
 	background: transparent;
 }
-.personal-nav-toggle.active i::before {
+.pweb-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1685,7 +1685,7 @@ margin-left: -20px;
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.personal-nav-toggle.active i::after {
+.pweb-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1693,7 +1693,7 @@ margin-left: -20px;
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.personal-nav-toggle {
+.pweb-nav-toggle {
   	position: fixed;
   	left: -5px;
 	top: 0px;

@@ -198,12 +198,12 @@ figure {
   color: #fff;
   background: #132032; }
 
-#personal-page {
+#pweb-page {
   width: 100%;
   overflow: hidden;
   position: relative; }
 
-#personal-aside {
+#pweb-aside {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
@@ -217,7 +217,7 @@ figure {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    #personal-aside {
+    #pweb-aside {
       width: 300px;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
@@ -225,7 +225,7 @@ figure {
       -o-transform: translateX(-300px);
       transform: translateX(-300px);
       padding-top: 4em; } }
-  #personal-aside .author-img {
+  #pweb-aside .author-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -234,38 +234,38 @@ figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-  #personal-aside .position {
+  #pweb-aside .position {
     display: block;
     margin-bottom: 2em;
     font-size: 12px;
     text-transform: uppercase; }
-  #personal-aside #personal-logo {
+  #pweb-aside #pweb-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: .5em;
     display: block;
     width: 100%; }
-    #personal-aside #personal-logo a {
+    #pweb-aside #pweb-logo a {
       display: block;
       text-align: center;
       /* EDIT: changes color of "Viren Khandal" in main menu */
       color: #DAA520;
       padding-left: 10px; 
     }
-  #personal-aside #personal-main-menu {
+  #pweb-aside #pweb-main-menu {
     display: block;
     width: 100%; }
-    #personal-aside #personal-main-menu .collapse {
+    #pweb-aside #pweb-main-menu .collapse {
       display: block !important; }
-    #personal-aside #personal-main-menu ul {
+    #pweb-aside #pweb-main-menu ul {
       text-align: center;
       margin: 0;
       padding: 0; }
       @media screen and (max-width: 768px) {
-        #personal-aside #personal-main-menu ul {
+        #pweb-aside #pweb-main-menu ul {
           margin: 0 0 2em 0; } }
-      #personal-aside #personal-main-menu ul li {
+      #pweb-aside #pweb-main-menu ul li {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
@@ -273,7 +273,7 @@ figure {
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
-        #personal-aside #personal-main-menu ul li a {
+        #pweb-aside #pweb-main-menu ul li a {
           /* EDIT: color here changed main menu item font color*/
           color: white;
           text-decoration: none;
@@ -283,7 +283,7 @@ figure {
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
-          #personal-aside #personal-main-menu ul li a:after {
+          #pweb-aside #pweb-main-menu ul li a:after {
             content: "";
             position: absolute;
             height: 1px;
@@ -303,28 +303,28 @@ figure {
             -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-          #personal-aside #personal-main-menu ul li a:hover {
+          #pweb-aside #pweb-main-menu ul li a:hover {
             text-decoration: none;
             color: #14478D; }
-            #personal-aside #personal-main-menu ul li a:hover:after {
+            #pweb-aside #pweb-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
               -moz-transform: scaleX(1);
               -ms-transform: scaleX(1);
               -o-transform: scaleX(1);
               transform: scaleX(1); }
-        #personal-aside #personal-main-menu ul li.active a {
+        #pweb-aside #pweb-main-menu ul li.active a {
           /* EDIT: changes color of active menu item */
           color: #DAA520; 
           font-weight: bold;}
-          #personal-aside #personal-main-menu ul li.active a:after {
+          #pweb-aside #pweb-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
             transform: scaleX(1); }
-  #personal-aside .personal-footer {
+  #pweb-aside .pweb-footer {
     font-size: 15px;
     text-align: center;
     font-weight: 400;
@@ -332,23 +332,23 @@ figure {
     padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
-      #personal-aside .personal-footer {
+      #pweb-aside .pweb-footer {
         position: relative;
         bottom: 0; } }
-    #personal-aside .personal-footer span {
+    #pweb-aside .pweb-footer span {
       display: block; }
-    #personal-aside .personal-footer ul {
+    #pweb-aside .pweb-footer ul {
       padding: 0;
       margin: 0; }
-      #personal-aside .personal-footer ul li {
+      #pweb-aside .pweb-footer ul li {
         padding: 0;
         margin: 0;
         display: inline;
         list-style: none; }
-        #personal-aside .personal-footer ul li a {
+        #pweb-aside .pweb-footer ul li a {
           color: rgba(255, 255, 255, 0.3);
           padding: 4px; }
-          #personal-aside .personal-footer ul li a:hover, #personal-aside .personal-footer ul li a:active, #personal-aside .personal-footer ul li a:focus {
+          #pweb-aside .pweb-footer ul li a:hover, #pweb-aside .pweb-footer ul li a:active, #pweb-aside .pweb-footer ul li a:focus {
             text-decoration: none;
             outline: none;
             color: #132032; }
@@ -357,18 +357,18 @@ figure {
   max-width: 1170px;
   margin: 0 auto; }
 
-#personal-main {
+#pweb-main {
   width: calc(100% - 300px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    #personal-main {
+    #pweb-main {
       width: 100%;
       padding: 0 1em; } }
 
-#personal-hero {
+#pweb-hero {
   min-height: 500px;
   /* Changes color behind "white.png" */
   background: rgb(14, 18, 24) url(../images/loader.gif) no-repeat center center;
@@ -376,94 +376,94 @@ figure {
   float: left;
   margin-bottom: 10em;
   clear: both; }
-  #personal-hero .flexslider {
+  #pweb-hero .flexslider {
     border: none;
     background-color: rgb(14, 18, 24);
     z-index: 1;
     margin-bottom: 0; }
-    #personal-hero .flexslider .slides {
+    #pweb-hero .flexslider .slides {
       position: relative;
       overflow: visible; }
-      #personal-hero .flexslider .slides li {
+      #pweb-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
         min-height: 400px;
         position: relative; }
-    #personal-hero .flexslider .flex-control-nav {
+    #pweb-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
       left: 20px;
       float: left;
       width: auto; }
       @media screen and (max-width: 768px) {
-        #personal-hero .flexslider .flex-control-nav {
+        #pweb-hero .flexslider .flex-control-nav {
           right: 20px;
           top: 100px; } }
-      #personal-hero .flexslider .flex-control-nav li {
+      #pweb-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
-        #personal-hero .flexslider .flex-control-nav li a {
+        #pweb-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
           height: 12px;
           cursor: pointer; }
-          #personal-hero .flexslider .flex-control-nav li a.flex-active {
+          #pweb-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
             border: 2px solid #132032; }
-    #personal-hero .flexslider .flex-direction-nav {
+    #pweb-hero .flexslider .flex-direction-nav {
       display: none; }
-    #personal-hero .flexslider .slider-text {
+    #pweb-hero .flexslider .slider-text {
       display: table;
       opacity: 0;
       min-height: 500px;
       z-index: 9; }
-      #personal-hero .flexslider .slider-text > .slider-text-inner {
+      #pweb-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
         @media screen and (max-width: 768px) {
-          #personal-hero .flexslider .slider-text > .slider-text-inner {
+          #pweb-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
-        #personal-hero .flexslider .slider-text > .slider-text-inner h1, #personal-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner h1, #pweb-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
           color: black;
           font-family: "Playfair Display", Georgia, serif; }
-        #personal-hero .flexslider .slider-text > .slider-text-inner h1 {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
           line-height: 1.3;
           font-weight: 700; }
           @media screen and (max-width: 768px) {
-            #personal-hero .flexslider .slider-text > .slider-text-inner h1 {
+            #pweb-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 28px; } }
-        #personal-hero .flexslider .slider-text > .slider-text-inner h2 {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif; }
-          #personal-hero .flexslider .slider-text > .slider-text-inner h2 a {
+          #pweb-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(44, 152, 240, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
-        #personal-hero .flexslider .slider-text > .slider-text-inner .heading-section {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
-            #personal-hero .flexslider .slider-text > .slider-text-inner .heading-section {
+            #pweb-hero .flexslider .slider-text > .slider-text-inner .heading-section {
               font-size: 30px; } }
-        #personal-hero .flexslider .slider-text > .slider-text-inner s
-.personal-lead {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner s
+.pweb-lead {
           font-size: 20px;
           color: #fff; }
-        #personal-hero .flexslider .slider-text > .slider-text-inner p {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
-        #personal-hero .flexslider .slider-text > .slider-text-inner .btn {
+        #pweb-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 2px;
@@ -471,20 +471,20 @@ figure {
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
-          #personal-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+          #pweb-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 1px solid #000;
             background: transparent !important; }
-            #personal-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+            #pweb-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
           @media screen and (max-width: 768px) {
-            #personal-hero .flexslider .slider-text > .slider-text-inner .btn {
+            #pweb-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
 
 body.offcanvas {
   overflow-x: hidden; }
-  body.offcanvas #personal-aside {
+  body.offcanvas #pweb-aside {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -494,7 +494,7 @@ body.offcanvas {
     background: #f2f3f7;
     z-index: 999;
     position: fixed; }
-  body.offcanvas #personal-main, body.offcanvas .personal-nav-toggle {
+  body.offcanvas #pweb-main, body.offcanvas .pweb-nav-toggle {
     top: 0;
     -moz-transform: translateX(300px);
     -webkit-transform: translateX(300px);
@@ -502,38 +502,38 @@ body.offcanvas {
     -o-transform: translateX(300px);
     transform: translateX(300px); }
 
-.personal-narrow-content {
+.pweb-narrow-content {
   padding: 0 2.5em; }
   @media screen and (max-width: 768px) {
-    .personal-narrow-content {
+    .pweb-narrow-content {
       padding: 0; } }
 
 .no-gutters {
   margin: 0;
   padding: 0; }
 
-.personal-experience,
-.personal-skills,
-.personal-education,
-.personal-blog,
-.personal-work,
-.personal-about,
-.personal-services,
-.personal-contact {
+.pweb-experience,
+.pweb-skills,
+.pweb-education,
+.pweb-blog,
+.pweb-work,
+.pweb-about,
+.pweb-services,
+.pweb-contact {
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .personal-experience,
-    .personal-skills,
-    .personal-education,
-    .personal-blog,
-    .personal-work,
-    .personal-about,
-    .personal-services,
-    .personal-contact {
+    .pweb-experience,
+    .pweb-skills,
+    .pweb-education,
+    .pweb-blog,
+    .pweb-work,
+    .pweb-about,
+    .pweb-services,
+    .pweb-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
@@ -543,7 +543,7 @@ body.offcanvas {
   background-repeat: no-repeat;
   position: relative; }
 
-.personal-heading {
+.pweb-heading {
   /* EDIT: changes color of headings like 'Who Am I' */
   color: white;
   font-size: 18px;
@@ -553,10 +553,10 @@ body.offcanvas {
   letter-spacing: 5px;
   line-height: 1.8;
   position: relative; }
-  .personal-heading span {
+  .pweb-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
-    .personal-heading {
+    .pweb-heading {
       margin-bottom: 3em; } }
 
 .heading-meta {
@@ -957,13 +957,13 @@ body.offcanvas {
     .progress-bar.color-6 span {
       color: #4054b2; }
 
-.personal-feature {
+.pweb-feature {
   text-align: left;
   width: 100%;
   float: left;
   margin-bottom: 40px;
   position: relative; }
-  .personal-feature .personal-icon {
+  .pweb-feature .pweb-icon {
     position: absolute;
     top: 0;
     left: 0;
@@ -976,35 +976,35 @@ body.offcanvas {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px; }
-    .personal-feature .personal-icon i {
+    .pweb-feature .pweb-icon i {
       display: table-cell;
       vertical-align: middle;
       color: #14478D;
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
-        .personal-feature .personal-icon i {
+        .pweb-feature .pweb-icon i {
           font-size: 40px; } }
-  .personal-feature .personal-text {
+  .pweb-feature .pweb-text {
     padding-left: 120px;
     width: 100%; }
-    .personal-feature .personal-text h2, .personal-feature .personal-text h3 {
+    .pweb-feature .pweb-text h2, .pweb-feature .pweb-text h3 {
       margin: 0;
       padding: 0; }
-    .personal-feature .personal-text h3 {
+    .pweb-feature .pweb-text h3 {
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase; }
-  .personal-feature.personal-feature-sm .personal-text {
+  .pweb-feature.pweb-feature-sm .pweb-text {
     margin-top: 30px; }
-  .personal-feature.personal-feature-sm .personal-icon i {
+  .pweb-feature.pweb-feature-sm .pweb-icon i {
     color: #14478D;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
-      .personal-feature.personal-feature-sm .personal-icon i {
+      .pweb-feature.pweb-feature-sm .pweb-icon i {
         font-size: 28px; } }
 
 .blog-entry {
@@ -1175,17 +1175,17 @@ body.offcanvas {
 .btn-load-more {
   width: 100%; }
 
-#personal-counter {
+#pweb-counter {
   position: relative;
   clear: both;
   margin-bottom: 5em; }
 
-.personal-counters {
+.pweb-counters {
   padding: 3em 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center; }
-  .personal-counters .overlay {
+  .pweb-counters .overlay {
     z-index: 0;
     position: absolute;
     bottom: 0;
@@ -1193,13 +1193,13 @@ body.offcanvas {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.4); }
-  .personal-counters .icon {
+  .pweb-counters .icon {
     width: 100px;
     height: 100px;
     display: table;
     margin: 0 auto;
     margin-bottom: 20px; }
-    .personal-counters .icon i {
+    .pweb-counters .icon i {
       display: table-cell;
       vertical-align: middle;
       width: 100px;
@@ -1211,9 +1211,9 @@ body.offcanvas {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
-  .personal-counters .counter-wrap {
+  .pweb-counters .counter-wrap {
     border: 1px solid red !important; }
-  .personal-counters .personal-counter {
+  .pweb-counters .pweb-counter {
     font-size: 40px;
     display: block;
     color: white;
@@ -1221,7 +1221,7 @@ body.offcanvas {
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
-  .personal-counters .personal-counter-label {
+  .pweb-counters .pweb-counter-label {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     font-size: 14px;
@@ -1229,11 +1229,11 @@ body.offcanvas {
     margin-bottom: 2em;
     display: block; }
 
-.personal-social {
+.pweb-social {
   padding: 0;
   margin: 0;
   text-align: center; }
-  .personal-social li {
+  .pweb-social li {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1241,7 +1241,7 @@ body.offcanvas {
     display: inline-block;
     zoom: 1;
     *display: inline; }
-    .personal-social li a {
+    .pweb-social li a {
       font-size: 22px;
       color: #000;
       padding: 10px;
@@ -1254,11 +1254,11 @@ body.offcanvas {
       -ms-border-radius: 7px;
       border-radius: 7px; }
       @media screen and (max-width: 768px) {
-        .personal-social li a {
+        .pweb-social li a {
           padding: 10px 8px; } }
-      .personal-social li a:hover {
+      .pweb-social li a:hover {
         color: #14478D; }
-      .personal-social li a:hover, .personal-social li a:active, .personal-social li a:focus {
+      .pweb-social li a:hover, .pweb-social li a:active, .pweb-social li a:focus {
         outline: none;
         text-decoration: none;
         color: #14478D; }
@@ -1270,7 +1270,7 @@ body.offcanvas {
     #map {
       height: 200px; } }
 
-.personal-bg-color {
+.pweb-bg-color {
   background: #fafafa;
   position: relative; }
 
@@ -1449,17 +1449,17 @@ body.offcanvas {
 #message {
   height: 130px; }
 
-.personal-nav-toggle {
+.pweb-nav-toggle {
   cursor: pointer;
   text-decoration: none; }
-  .personal-nav-toggle.active i::before, .personal-nav-toggle.active i::after {
+  .pweb-nav-toggle.active i::before, .pweb-nav-toggle.active i::after {
     background: #000; }
-  .personal-nav-toggle.dark.active i::before, .personal-nav-toggle.dark.active i::after {
+  .pweb-nav-toggle.dark.active i::before, .pweb-nav-toggle.dark.active i::after {
     background: #000; }
-  .personal-nav-toggle:hover, .personal-nav-toggle:focus, .personal-nav-toggle:active {
+  .pweb-nav-toggle:hover, .pweb-nav-toggle:focus, .pweb-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
-  .personal-nav-toggle i {
+  .pweb-nav-toggle i {
     position: relative;
     display: -moz-inline-stack;
     display: inline-block;
@@ -1475,7 +1475,7 @@ body.offcanvas {
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .personal-nav-toggle i::before, .personal-nav-toggle i::after {
+    .pweb-nav-toggle i::before, .pweb-nav-toggle i::after {
       content: '';
       width: 30px;
       height: 2px;
@@ -1485,35 +1485,35 @@ body.offcanvas {
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
-  .personal-nav-toggle.dark i {
+  .pweb-nav-toggle.dark i {
     position: relative;
     color: #000;
     background: #000;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
-    .personal-nav-toggle.dark i::before, .personal-nav-toggle.dark i::after {
+    .pweb-nav-toggle.dark i::before, .pweb-nav-toggle.dark i::after {
       background: #000;
       -webkit-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s; }
 
-.personal-nav-toggle i::before {
+.pweb-nav-toggle i::before {
   top: -7px; }
 
-.personal-nav-toggle i::after {
+.pweb-nav-toggle i::after {
   bottom: -7px; }
 
-.personal-nav-toggle:hover i::before {
+.pweb-nav-toggle:hover i::before {
   top: -10px; }
 
-.personal-nav-toggle:hover i::after {
+.pweb-nav-toggle:hover i::after {
   bottom: -10px; }
 
-.personal-nav-toggle.active i {
+.pweb-nav-toggle.active i {
   background: transparent; }
 
-.personal-nav-toggle.active i::before {
+.pweb-nav-toggle.active i::before {
   top: 0;
   -webkit-transform: rotateZ(45deg);
   -moz-transform: rotateZ(45deg);
@@ -1521,7 +1521,7 @@ body.offcanvas {
   -o-transform: rotateZ(45deg);
   transform: rotateZ(45deg); }
 
-.personal-nav-toggle.active i::after {
+.pweb-nav-toggle.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
   -moz-transform: rotateZ(-45deg);
@@ -1529,7 +1529,7 @@ body.offcanvas {
   -o-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg); }
 
-.personal-nav-toggle {
+.pweb-nav-toggle {
   position: fixed;
   left: -5px;
   top: 0px;
@@ -1542,7 +1542,7 @@ body.offcanvas {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    .personal-nav-toggle {
+    .pweb-nav-toggle {
       opacity: 1;
       visibility: visible; } }
 
