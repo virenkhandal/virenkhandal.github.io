@@ -47,8 +47,8 @@
 
 
 	var counterWayPoint = function() {
-		if ($('#personalweb-counter').length > 0 ) {
-			$('#personalweb-counter').waypoint( function( direction ) {
+		if ($('#pers-counter').length > 0 ) {
+			$('#pers-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( counter , 400);					
@@ -98,7 +98,7 @@
 
 	var burgerMenu = function() {
 
-		$('.js-personalweb-nav-toggle').on('click', function(event){
+		$('.js-pers-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
 
@@ -119,13 +119,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#personalweb-aside, .js-personalweb-nav-toggle");
+	    var container = $("#pers-aside, .js-pers-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-personalweb-nav-toggle').removeClass('active');
+    			$('.js-pers-nav-toggle').removeClass('active');
 			
 	    	}
 	    	
@@ -136,7 +136,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-personalweb-nav-toggle').removeClass('active');
+    			$('.js-pers-nav-toggle').removeClass('active');
 			
 	    	}
 		});
@@ -158,7 +158,7 @@
 		    if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
 		    	navbar.attr('aria-expanded', 'false');
-		    	$('.js-personalweb-nav-toggle').removeClass('active');
+		    	$('.js-pers-nav-toggle').removeClass('active');
 		    }
 
 		    event.preventDefault();
@@ -209,7 +209,7 @@
 
 	var sliderMain = function() {
 		
-	  	$('#personalweb-hero .flexslider').flexslider({
+	  	$('#pers-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,
@@ -254,7 +254,7 @@
 				$("#sticky_item").trigger("sticky_kit:detach");
 				$("#sticky_item").trigger("sticky_kit:unstick");
 
-				$("#sticky_item").stick_in_parent();
+				// $("#sticky_item").stick_in_parent();
 			}
 			
 
@@ -264,7 +264,7 @@
 
 		$('.sticky-parent').css('height', h);
 
-		$("#sticky_item").stick_in_parent();
+		// $("#sticky_item").stick_in_parent();
 
 	};
 
