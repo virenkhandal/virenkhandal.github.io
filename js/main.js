@@ -47,8 +47,8 @@
 
 
 	var counterWayPoint = function() {
-		if ($('#pweb-counter').length > 0 ) {
-			$('#pweb-counter').waypoint( function( direction ) {
+		if ($('#colorlib-counter').length > 0 ) {
+			$('#colorlib-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( counter , 400);					
@@ -98,7 +98,7 @@
 
 	var burgerMenu = function() {
 
-		$('.js-pweb-nav-toggle').on('click', function(event){
+		$('.js-colorlib-nav-toggle').on('click', function(event){
 			event.preventDefault();
 			var $this = $(this);
 
@@ -119,13 +119,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#pweb-aside, .js-pweb-nav-toggle");
+	    var container = $("#colorlib-aside, .js-colorlib-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-pweb-nav-toggle').removeClass('active');
+    			$('.js-colorlib-nav-toggle').removeClass('active');
 			
 	    	}
 	    	
@@ -136,7 +136,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-pweb-nav-toggle').removeClass('active');
+    			$('.js-colorlib-nav-toggle').removeClass('active');
 			
 	    	}
 		});
@@ -158,7 +158,7 @@
 		    if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
 		    	navbar.attr('aria-expanded', 'false');
-		    	$('.js-pweb-nav-toggle').removeClass('active');
+		    	$('.js-colorlib-nav-toggle').removeClass('active');
 		    }
 
 		    event.preventDefault();
@@ -209,7 +209,7 @@
 
 	var sliderMain = function() {
 		
-	  	$('#pweb-hero .flexslider').flexslider({
+	  	$('#colorlib-hero .flexslider').flexslider({
 			animation: "fade",
 			slideshowSpeed: 5000,
 			directionNav: true,
