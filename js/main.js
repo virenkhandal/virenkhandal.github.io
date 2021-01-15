@@ -211,7 +211,7 @@
 		
 	  	$('#pers-hero .flexslider').flexslider({
 			animation: "fade",
-			slideshowSpeed: 5000,
+			slideshowSpeed: 2000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
