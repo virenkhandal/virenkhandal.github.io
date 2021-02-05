@@ -96,7 +96,7 @@ input:checked + .slider:before {
   align-self: center;
   text-align: center;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .socialbtn{
@@ -233,6 +233,7 @@ figure {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    /* margin-top: -30px; */
     margin-bottom: 30px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
