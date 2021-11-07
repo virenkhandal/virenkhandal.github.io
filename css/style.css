@@ -18,7 +18,9 @@ body {
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); 
 }
-
+.contact-ref-l:hover{
+  color: #DAA520;
+}
 /* The switch - the box around the slider */
 .switch {
   position: relative;

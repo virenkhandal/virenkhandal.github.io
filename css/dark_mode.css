@@ -19,7 +19,12 @@ body {
   background-color: rgb(14, 18, 24);
   color: white; 
 }
-
+.contact-ref{
+  color: white;
+}
+.contact-ref:hover{
+  color: #DAA520;
+}
 /* The switch - the box around the slider */
 .switch {
   position: relative;
