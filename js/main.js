@@ -85,14 +85,14 @@
 							}
 
 							el.removeClass('item-animate');
-						},  k * 200, 'easeInOutExpo' );
+						},  k * 100, 'easeInOutExpo' );
 					});
 					
 				}, 100);
 				
 			}
 
-		} , { offset: '85%' } );
+		} , { offset: '100%' } );
 	};
 
 
@@ -211,19 +211,19 @@
 		
 	  	$('#pers-hero .flexslider').flexslider({
 			animation: "fade",
-			slideshowSpeed: 2000,
+			slideshowSpeed: 5000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
 					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 500);
+				}, 0);
 			},
 			before: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
 					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 500);
+				}, 0);
 			}
 
 	  	});
