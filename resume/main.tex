@@ -1,0 +1,145 @@
+%------------------------
+% Resume - Viren Khandal
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{
+  \item\small{\textbf{#1}{: #2 \vspace{-2pt}}}
+  \vspace{-3pt}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Viren Khandal}} & Email: \href{mailto:virenkhandal@berkeley.edu}{virenkhandal@berkeley.edu} \\
+  \href{https://virenkhandal.github.io}{virenkhandal.github.io} $\vert$
+  \href{https://github.com/virenkhandal}{github.com/virenkhandal} & Mobile: +1-510-386-6222 \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\vspace{2pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading{Tesla}{Fremont, CA}
+      {Senior Machine Learning Engineer}{Dec 2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{Leading all ML efforts across vision-guided robotics, large-scale automated manufacturing defect detection, and core ML for an internal computer vision training platform.}
+        \resumeItem{Designed and deployed production computer vision systems for automated quality inspection across Tesla's high-throughput manufacturing lines.}
+        \resumeItem{Built real-time inference pipelines optimized for low-latency, low-intervention production environments, reducing manual inspection overhead at scale.}
+      \resumeItemListEnd
+
+    \resumeSubheading{Ponder (Stealth)}{Remote}
+      {Co-Founder}{Oct 2024 -- Jan 2026}
+      \resumeItemListStart
+        \resumeItem{Led full backend and ML development for an AI app that generates multi-perspective audio podcasts from any user query, with each perspective grounded in cited research and credible sources.}
+        \resumeItem{Architected retrieval-augmented generation pipelines to synthesize web-scale information into structured, multi-viewpoint audio content with source attribution.}
+        \resumeItem{Built end-to-end backend infrastructure including API design, audio generation, and serving systems to support real-time podcast creation at scale.}
+      \resumeItemListEnd
+
+    \resumeSubheading{University of California, Berkeley -- VeHICal}{Berkeley, CA}
+      {Research Engineer}{May 2021 -- Dec 2022}
+      \resumeItemListStart
+        \resumeItem{Led research on optimizing human performance during autonomous-to-human perception handoffs in autonomous vehicles under Professors Sanjit Seshia and Bjoern Hartmann (\href{https://vehical.org}{vehical.org}).}
+        \resumeItem{Developed Virtual Reality (VR) tools to conduct human-in-the-loop experiments with high ecological validity for studying driver takeover scenarios.}
+        \resumeItem{Formalized stochastic models for safe perception handoffs, contributing to verified human-autonomy interaction frameworks.}
+      \resumeItemListEnd
+
+    \resumeSubheading{Stanford Autonomous Systems Lab}{Stanford, CA}
+      {Visiting Researcher}{Apr 2022 -- Dec 2022}
+      \resumeItemListStart
+        \resumeItem{Investigated effects of out-of-distribution (OOD) events on human-autonomy interaction in autonomous driving under Professor Marco Pavone (\href{https://stanfordasl.github.io/}{stanfordasl.github.io}).}
+        \resumeItem{Developed a framework enabling safe real-time control handoffs from autonomous vehicle to human driver during OOD events.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\vspace{4pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {B.A. Computer Science \& Applied Mathematics (Double Major)}{Aug 2019 -- May 2022}
+      \resumeItemListStart
+        \resumeItem{Specialization in Machine Learning and Artificial Intelligence}
+        \resumeItem{Coursework: Deep Learning, Machine Learning, Artificial Intelligence, Efficient Algorithms, Data Structures, Statistical Prediction, Numerical/Real/Complex Analysis, Advanced Linear Algebra, Abstract Algebra}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Stanford University}{Palo Alto, CA}
+      {Certificate in Computer Science}{May 2018 -- Sept 2018}
+      \resumeItemListStart
+        \resumeItem{Coursework: Data Mining and Analysis, Client-Side Internet Technologies}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\vspace{4pt}
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{Python, C/C++, Go, Java, JavaScript, SQL, Shell}
+    \resumeSubItem{ML/AI}{PyTorch, TensorFlow, OpenCV, ONNX, TensorRT, Hugging Face, scikit-learn}
+    \resumeSubItem{Infrastructure}{AWS, GCP, Docker, Kubernetes, Git, CI/CD, Linux}
+    \resumeSubItem{Domains}{Computer Vision, Object Detection, Manufacturing ML, Autonomous Driving, Human-Autonomy Interaction}
+  \resumeSubHeadingListEnd
+\end{document}

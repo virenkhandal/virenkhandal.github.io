@@ -1,0 +1,355 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\cfoot{\makebox[\textwidth]{Page \thepage \hspace{0.5pt} of \pageref{LastPage}}}
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Viren Khandal}}\\\\
+  \href{https://virenkhandal.github.io}{ Portfolio: virenkhandal.github.io} & Email: \href{mailto:virenkhandal@berkeley.edu}{virenkhandal@berkeley.edu} \\
+  \href{https://github.com/virenkhandal}{ Github: ~~github.com/virenkhandal} & Mobile:~~~+1-510-386-6222\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\vspace{5pt}
+\section{Summary}
+
+
+As an \textit{innovator} and a \textit{technologist}, I pride myself on understanding and building a project from initiation to delivery. Whether it's in industry (\textbf{currently a Senior Machine Learning Engineer at Tesla}), academia (reference \href{https://ieeexplore.ieee.org/document/9668575}{Exploring Credibility Scoring Metrics of Perception Systems for Autonomous Driving}, or personal initiatives (reference \href{https://github.com/virenkhandal}{Personal Portfolio}, I've been able to provide my knowledge and experience to deliver cutting-edge technologies. I'm always excited to build something impactful that synergizes the dynamic between machine learning, software, and hardware.
+
+% With over 4 years of relevant research and work experience in machine learning and software development through my full-time work and internships (Tesla, UC Berkeley Research, Open Networking Foundation, etc), I have experience working on various computer vision, natural language processing, and machine learning projects, as well as developing multi-platform applications.
+
+\vspace{5pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Berkeley, California}{Berkeley, California}
+      {Bachelor of Arts - Computer Science \& Applied Mathematics (Double Major)}{Aug 2019 - May 2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Specialization:} Machine Learning and Artificial Intelligence}}}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Deep Learning, Machine Learning, Artificial Intelligence, Efficient Algorithms, Data Structures, Modern Statistical and Predictive Analysis, Numerical, Real, and Complex Analysis, Advanced Linear Algebra, Abstract Algebra}}}
+   \resumeSubheading
+      {Stanford University, California}{Palo Alto, California}
+      {Certification - Computer Science}{May 2018 - Sept 2018}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Mining and Analysis, Client Side Internet Technologies}}}
+    \resumeSubHeadingListEnd  
+	    
+% \vspace{0pt}
+% \section{Skills}
+% 	\resumeSubHeadingListStart
+% 	\resumeSubItem{Languages}{~~~~~~Python, Shell, Java, C, C++, JavaScript, Go, SQL}
+% 	\resumeSubItem{Frameworks}{~~~~PyTorch, Tensorflow, Flask, NLTK, SpaCy, NodeJS, ReactJS}
+% 	\resumeSubItem{Tools}{~~~~~~~~~~~~~~AWS, GIT, Unity, Docker, Shell, Azure, GCP, IBM Cloud, Arduino}
+% 	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Communication, Time Management, Public Speaking, Teamwork}
+
+\resumeSubHeadingListEnd
+\vspace{5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading{Tesla}{Fremont, CA}
+    {Senior Machine Learning Engineer}{Dec 2022 - Present}
+    \resumeItemListStart
+        \resumeItem{Mentors}
+          {Jeremy Kerfs, Reza Katebi, Charlie Freundlich}
+          \resumeItem{Scope}
+          {Working at the intersection of hardware, machine learning, and design to build elegant solutions for manufacturing quality inspections at scale.}
+          \resumeItem{Description}
+          {Developing cutting-edge, low-cost, and reliable machine learning solutions to improve manufacturing quality in Tesla's rapid, low-intervention production lines}
+      \resumeItemListEnd
+\vspace{5pt}
+    % \resumeSubHeadingListStart
+      \resumeSubheading{Stealth}{Remote}
+        {Senior Machine Learning Engineer}{Dec 2022 - Present}
+        \resumeItemListStart
+            \resumeItem{Mentors}
+              {Jeremy Kerfs, Reza Katebi, Charlie Freundlich}
+              \resumeItem{Scope}
+              {Working at the intersection of hardware, machine learning, and design to build elegant solutions for manufacturing quality inspections at scale.}
+              \resumeItem{Description}
+              {Developing cutting-edge, low-cost, and reliable machine learning solutions to improve manufacturing quality in Tesla's rapid, low-intervention production lines}
+          \resumeItemListEnd
+    \vspace{5pt}
+    \resumeSubheading{University of California}{Berkeley, CA}
+    {Research Engineer}{June 2022 - Present}
+    \resumeItemListStart
+        \resumeItem{Mentors}
+          {Professor Sanjit Seshia, Professor Bjoern Hartmann, Dr. Balasaravanan Thoravi Kumaravel}
+          \resumeItem{Scope}
+          {Formalizing models for safe autonomous-to-human perception handoffs in autonomous vehicles on the VeHICal project \textit{(\url{https://vehical.org})}}
+          \resumeItem{Description}
+          {Leading project to optimize human performance in human-autonomy handoffs in autonomous driving, Developing Virtual Reality (VR) tools to conduct human-in-the-loop experiments with high ecological validity}
+      \resumeItemListEnd
+\vspace{5pt}
+    \resumeSubheading{Stanford University - Autononous Systems Lab}{Stanford, CA}
+    {Visiting Researcher}{Sept 2022 - Present}
+    \resumeItemListStart
+        \resumeItem{Mentors}
+          {Professor Marco Pavone}
+          \resumeItem{Scope}
+          {Investigating the effects of Out-of-Distribution events on human-autonomy interaction in autonomous driving \textit{(\url{https://stanfordasl.github.io/})}}
+          \resumeItem{Description}
+          {Leading project to develop a framework to enable safe control handoffs in autonomous driving from vehicle to human in the case of Out-of-Distribution (OOD) events.}
+      \resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading{Postbox}{Remote}
+%     {Consultant - Full-Stack Software Engineer}{June 2022 - Oct 2022}
+%     \resumeItemListStart
+%         \resumeItem{Mentor}
+%           {Sherman Dickman}
+%           \resumeItem{Scope}
+%           {Personalized desktop email client, news client, and feed reader for macOS and Windows}
+%           \resumeItem{Description}
+%           {Leading effort to upscale platform for optimized performance on new macOS and Windows updates, Improve automation and maintenance of CI/CD pipeline}
+%       \resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading{genei.io}{Remote}
+%     {Consultant - Machine Learning Engineer}{Aug 2022 - Aug 2022}
+%     \resumeItemListStart
+%         \resumeItem{Mentors}
+%           {Thomas Foster, Jack Bowen}
+%           \resumeItem{Scope}
+%           {Optimized web application and extension for faster researching by automatically summarizing background reading and produce blogs, articles, and reports faster}
+%           \resumeItem{Description}
+%           {Lead Document Layout Analysis project to parse the underlying structure of a PDF to categorize sections into classes and extract reading order of the text, Implemented Transformer models (LayoutLMv3 and LayoutReader) to perform scalable document layout analysis}
+%       \resumeItemListEnd
+% \vspace{5pt}
+    % \resumeSubheading{UC Berkeley College of Engineering - VeHICal}{Berkeley, CA}
+    % {Student Researcher}{May 2021 - May 2022}
+    % \resumeItemListStart
+    %     \resumeItem{Mentors}
+    %       {Professor Sanjit Seshia, Professor Bjoern Hartmann, Dr. Yash Vardhan Pant}
+    %       \resumeItem{Scope}
+    %       {Formalizing models for safe autonomous-to-human perception handoffs in autonomous vehicles on the VeHICal project \textit{(\url{https://vehical.org})}}
+    %       \resumeItem{Description}
+    %       {Improving responsibility of autonomous vehicles through verification of perception decision making by developing unique scoring metric to gauge credibility of reinforcement learning/object detection models (YOLOv3, SSD, RetinaNet)}
+    %       \resumeItem{Research Foci}{Human-Autonomy Interaction, Robust Perception, Formal Methods}
+    %   \resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading
+% 		{Computer Science Mentors}{Berkeley, CA}
+% 		{Instructor \& Coordinator \& Advisor}{Jan 2020 -  Present}
+% 		\resumeItemListStart
+% 		\resumeItem{Mentors}
+% 		    {Professor John DeNero, Professor Christopher Hunn}
+%         \resumeItem{Scope}
+%           {Lead weekly tutoring session to teach students about linear algebra, circuit analysis, and machine learning.}
+%         \resumeItem{Description}
+%           {Lead a group of 25+ mentors by hosting teaching workshops and promoting a passion for teaching.}
+%         \resumeItem{Impact}{Providing group tutoring for Electrical Engineering \& Computer Science (EECS) courses at UC Berkeley to 2000+ undergraduate students.}
+% 	  \resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading
+% 		{Hirebee.ai}{Remote}
+% 		{Machine Learning Intern}{Jan 2021 -  June 2021}
+% 		\resumeItemListStart
+%         \resumeItem{Mentors}
+%           {Dr. Vahe Tshitoyan, Mrs. Luiza Avetisyan}
+%         \resumeItem{Scope}{Streamlining the HR process by developing NLP-based algorithms for job similarity and candidate progression.}
+%         \resumeItem{Description}
+%           {Designed and deployed a multilayered CNN based on Named-Entity-Recognition (NER) to extract categorized skills from resumes and job postings with 95\% precision}
+% 		\resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading
+% 		{InternPursuit}{Remote}
+% 		{Machine Learning Intern}{Jan 2021 -  June 2021}
+% 		\resumeItemListStart
+%         \resumeItem{Mentors}
+%           {Dr. Isabella Johnston, Mr. Irving Chin}
+%         \resumeItem{Scope}
+%           {Employer platform to manage intern from recruitment to exit. Learning Academy for Employers}
+%         \resumeItem{Description}{Developing a novel optimization and multilayered clustering algorithm to optimally match student and employer profiles}
+% 		\resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading
+% 		{Cool Climate Networks}{Berkeley, CA}
+% 		{Lead Researcher}{Jan 2020 -  June 2021}
+% 		\resumeItemListStart
+%         \resumeItem{Mentor}
+%           {Dr. Christopher Jones, Dr. Daniel Kammen}
+%         \resumeItem{Scope}
+%           {Research consortium at the University of California, Berkeley focused on research in developing cutting-edge carbon footprint management tools for communities in the U.S. and Internationally.}
+%         \resumeItem{Description}{Used machine learning tools in R and Python to perform qualitative/quantitative analysis and create analytical maps from US Census Tract data}
+% 		\resumeItemListEnd
+% \vspace{5pt}
+%     \resumeSubheading
+% 		{WhatElse.io}{Berkeley, CA}
+% 		{Backend Development Intern}{Sept 2019 -  Feb 2020}
+% 		\resumeItemListStart
+%         \resumeItem{Mentor}
+%           {Mr. Pooran Prasad Rajanna}
+%         \resumeItem{Scope}
+%           {A business productivity solution, which saves customer-oriented teams many hours, from searching data in various applications, by providing relevant content when necessary}
+%         \resumeItem{Description}{Utilized Flask and Jinja to create an interactive Python-based web dashboard and demoed it to 100+ VC firms and investors at official Berkeley SkyDeck Demo Day}
+% 		\resumeItemListEnd
+% \vspace{5pt}
+  %   \resumeSubheading
+		% {Open Networking Foundation}{Menlo Park, CA}
+		% {Software Engineering Intern}{June 2018 -  Dec 2019}
+		% \resumeItemListStart
+  %       \resumeItem{Mentors}
+  %         {Dr. Guru Parulkar, Mr. William Snow, Mr. Matteo Scandolo}
+  %       \resumeItem{Scope}
+  %         {Operator Led Consortium hosting open source mobile & broadband projects driving network industry transformation}
+  %       \resumeItem{Description}{Development/Unit testing work to enhance UI for key Internet Service Providers with JavaScript, jQuery, and AJAX}
+		% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+
+
+% \vspace{5pt}
+% \section{Publications}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Academic Paper: Human-in-the-Loop Control Handoffs in Out-of-Distribution (OOD) Contexts}{A framework to enable safe control handoffs in autonomous driving from vehicle to human in the case of Out-of-Distribution (OOD) events. \textbf{Tech: Python, Tensorflow, TinyYolo} (In Progress) \textbf{Submitting to the International Conference on Machine Learning (ICML) 2023}}
+% \vspace{5pt}
+% \resumeSubItem{Academic Paper: Learning-Driven Oracle-Guided Compositional Symbiotic Design of Cyber-Physical Systems (LOGiCS)}{Developing a control system for Unmanned Underwater Vehicles (UUVs) to safely maneuver around land and drop off payload. \textbf{Tech: Python, Control Theory, Physics} (In Progress) \textbf{DARPA Funded Project}}
+% \vspace{5pt}
+% \resumeSubItem{Academic Paper: Using Immersive Virtual Reality to Improve the Realism of Perception Handoff Testing for Safer Autonomous Driving}{An immersive human-in-the-loop virtual reality autonomous driving simulation to increase the realism and efficacy of existing perception handoff testing. \textbf{Tech: Virtual Reality, Unity, C++, Python} (September '22) \textbf{Revise\&Resubmit at ACM Conference on Human Factors in Computing Systems (CHI) 2023}}
+% % \resumeSubItem{Academic Workshop Paper: Robust Lane Detection for High Speed Perception}{\textit{(Work in Progress)} Developing a robust, online lane detection algorithm for high-speed autonomous racing. \textbf{Tech: Python, Tensorflow} (In Progress) \textbf{Submitting to ICRA Opportunities And Challenged With Autonomous Racing (OCAR) Workshop 2022}}
+% % \vspace{5pt}
+% % \resumeSubItem{Academic Conference Paper: Online Credibility Scoring of Perception Systems for Autonomous Driving}{\textit{(Work in Progress)} A framework to gauge the credibility of an autonomous vehicle’s perception module based on a model that scores a neural network’s reliability online. \textbf{Tech: Python, Tensorflow, TinyYolo, GCP} (In Progress) \textbf{Accepted at ICLR CSS Workshop 2022}}
+% % \vspace{5pt}
+% % \resumeSubItem{Academic Workshop Paper: Modeling and Influencing Human Attentiveness in  Autonomy-to-Human Perception Hand-offs}{\textit{(Work in Progress)} A formal method to model the perception hand-off problem as an optimally-parametrized Markov Decision Process, which schedules proposed active information gathering (AIG) actions. \textbf{Tech:  Python, Tensorflow} (In Progress)}
+% \vspace{5pt}
+% \resumeSubItem{Academic Workshop Paper: Exploring Credibility Scoring Metrics of Perception Systems for Autonomous Driving}{An empirical study on the reliability of object detectors and their points of failure based on realistic, non-adversarial perturbations. \textbf{Tech: Python, Tensorflow, TinyYolo, GCP} (December '21) \textbf{Published at IEEE/ACM COMSNETS Intelligent Transportation Systems 2022}}
+% \vspace{5pt}
+% \resumeSubItem{Academic Paper: Modeling the 15 Tile Puzzle Through the Lens of Group Theory}{ Developing a mathematical backing for the 15 Tile Puzzle and solving strategies using group and ring theory. (November '21) \textbf{Self-Publish}}
+% \vspace{5pt}
+% \resumeSubItem{Publication: Consumption Based Greenhouse Gas Inventory of San Francisco from 1990 to 2015}{A consumption-based emissions inventory for the City/County of San Francisco, California from 1990 to 2015. \textbf{Tech: R, Python, Data Analysis} (October '20) \textbf{Presented at Commission on the Environment - San Francisco}}
+% \vspace{5pt}
+% \resumeSubItem{Industry Conference Paper: Determining the Causalities of Network Delay and Latency}{An approach using a correlation analysis and machine learning to determine the constituents of network latency. \textbf{Tech: Python, R, Tensorflow, Keras} (September '19) \textbf{Presented at ONF Connect 2019}}
+% \vspace{5pt}
+% \resumeSubItem{Industry Conference Paper: The Beginnings of a Search Engine}{An introductory model for a search engine, built on search optimization through a variety of classifiers (SVMs, Random Forests, etc). \textbf{Tech: Python, R, TensorFlow, PyTorch} (December '18) \textbf{Presented at ONF Connect 2018}}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+
+% %-----------PROJECTS-----------------
+% \vspace{10pt}
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Rainbow Synth}{An immersive companion to your music-listening experience, Rainbow Synth brings your music to life in the Apple Vision Pro virtual environment. \textbf{Tech: Swift, Python} (Feb '24)}
+
+% \vspace{5pt}
+% \resumeSubItem{Virtual Reality Autonomous Driving Simulation (VRADS)}{A high-fidelity VR simulation to realistically model and influence human attentiveness in autonomous driving contexts. \textbf{Tech: Unity, C++, OpenXR} (August '22)}
+
+% \vspace{5pt}
+% \resumeSubItem{VeHICaL: Verified Human Interfaces, Control, and Learning for Semi-Autonomous Systems}{Formalizing discrete-time stochastic control Markov processes for safe autonomous-to-human perception handoffs in autonomous vehicles. \textbf{Tech: Python, Javascript, Tensorflow, ML Theory} (Dec '21)}
+
+% \vspace{5pt}
+% \resumeSubItem{Drowsiness Detection System (Computer Vision, Machine Learning)}{AI model to detect/prevent drowsiness in autonomous vehicles. \textbf{Tech: DeepLearning4Java, OpenCV, Tensorflow, Android Studio} (August '21)}
+
+% \vspace{5pt}
+% \resumeSubItem{Wrapt -  (Full-Stack, RESTful API)}{Web Application for visualizing Spotify listening activity with Spotify, Twitter, and Instagram integration. \textbf{Tech: Python, Flask, JavaScript, API Integration} (February '21)}
+
+% \vspace{5pt}
+% \resumeSubItem{MoodMatch - multimedia recommendation system (Machine Learning, NLP, Full-Stack, Web Crawlers)}{Multi-platform application for recommending trending music/movies based on user’s mood using novel sentimental analysis algorithms. \textbf{Tech: Python, NodeJS, NLTK, TensorFlow, Keras, Azure} (October '20)}
+
+% \vspace{5pt}
+% \resumeSubItem{BeachBuddy - multimedia recommendation system (Machine Learning, RESTful API, Full-Stack, Web Crawlers)}{Multi-platform application for recommending beaches based on several criteria (crowd, weather, distance, etc) using novel clustering algorithm built on PyTorch. \textbf{Tech: Python, PyTorch, AWS, Flask} (July '20)}
+
+% \resumeSubHeadingListEnd
+% % -----------Awards-----------------
+% \vspace{5pt}
+% \section{Honors \& Awards}
+% \resumeSubHeadingListStart 
+%     \vspace{5pt}
+%     \item {Amazon Web Services \textbf{
+% Cloud Practitioner} - \textit{In Progress}}
+%     \vspace{1pt}
+%     \item{\textbf{First Place Winner} at Global DefHacks Hackathon - July, 2020}
+%     \vspace{1pt}
+%     \item {Awarded title of \textbf{Computer Science Scholar} at University of California, Berkeley - Sept, 2019}
+%     \vspace{1pt}
+%     \item {\textbf{Second Place Winner} at Global Amazon Web Services Hackathon, May, 2019}
+
+
+% % \vspace{-5pt}
+% % \section{Volunteer Experience}
+% %   \resumeSubHeadingListStart
+% % 	\resumeSubheading
+% %     {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
+% %     {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
+% % \vspace{5pt}
+% %     % \vspace{10pt}\textbf{\large{Community Experience}}
+% %     \resumeSubheading
+% %     {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+% %     {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+
+% % \resumeSubHeadingListEnd
+
+\end{document}
