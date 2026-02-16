@@ -84,9 +84,11 @@
     \resumeSubheading{Tesla}{Fremont, CA}
       {Senior Machine Learning Engineer}{Dec 2022 -- Present}
       \resumeItemListStart
-        \resumeItem{Leading all ML efforts across vision-guided robotics, large-scale automated manufacturing defect detection, and core ML for an internal computer vision training platform.}
-        \resumeItem{Designed and deployed production computer vision systems for automated quality inspection across Tesla's high-throughput manufacturing lines.}
-        \resumeItem{Built real-time inference pipelines optimized for low-latency, low-intervention production environments, reducing manual inspection overhead at scale.}
+        \resumeItem{Leading ML research and development across 4 global factories, spanning vision-guided robotics, large-scale manufacturing defect detection, and core ML infrastructure for an internal computer vision training platform.}
+        \resumeItem{Investigating the open problem of factory-aware foundation models -- how to learn visual representations that encode manufacturing domain priors and generalize across diverse production environments, inspection modalities, and defect taxonomies.}
+        \resumeItem{Formulated robust transfer and imitation learning approaches for adapting large pretrained vision models to novel factory domains with minimal labeled data, studying the conditions under which few-shot domain adaptation preserves detection fidelity.}
+        \resumeItem{Researched knowledge distillation strategies for compressing high-capacity teacher networks into lightweight student models deployable at real-time edge inference latencies, analyzing accuracy--efficiency trade-offs in resource-constrained manufacturing settings.}
+        \resumeItem{Designed and evaluated production computer vision systems for automated quality inspection, contributing empirical insights on deploying learned models in high-throughput, low-intervention industrial pipelines.}
       \resumeItemListEnd
 
     \resumeSubheading{Ponder (Stealth)}{Remote}
@@ -100,16 +102,14 @@
     \resumeSubheading{University of California, Berkeley -- VeHICal}{Berkeley, CA}
       {Research Engineer}{May 2021 -- Dec 2022}
       \resumeItemListStart
-        \resumeItem{Led research on optimizing human performance during autonomous-to-human perception handoffs in autonomous vehicles under Professors Sanjit Seshia and Bjoern Hartmann (\href{https://vehical.org}{vehical.org}).}
-        \resumeItem{Developed Virtual Reality (VR) tools to conduct human-in-the-loop experiments with high ecological validity for studying driver takeover scenarios.}
-        \resumeItem{Formalized stochastic models for safe perception handoffs, contributing to verified human-autonomy interaction frameworks.}
+        \resumeItem{Led research on safe autonomous-to-human perception handoffs under Professors Sanjit Seshia and Bjoern Hartmann (\href{https://vehical.org}{vehical.org}), formalizing stochastic models for verified human-autonomy interaction.}
+        \resumeItem{Developed VR-based human-in-the-loop experimental tools to study driver takeover scenarios with high ecological validity.}
       \resumeItemListEnd
 
     \resumeSubheading{Stanford Autonomous Systems Lab}{Stanford, CA}
       {Visiting Researcher}{Apr 2022 -- Dec 2022}
       \resumeItemListStart
-        \resumeItem{Investigated effects of out-of-distribution (OOD) events on human-autonomy interaction in autonomous driving under Professor Marco Pavone (\href{https://stanfordasl.github.io/}{stanfordasl.github.io}).}
-        \resumeItem{Developed a framework enabling safe real-time control handoffs from autonomous vehicle to human driver during OOD events.}
+        \resumeItem{Investigated out-of-distribution (OOD) events in human-autonomy interaction under Professor Marco Pavone (\href{https://stanfordasl.github.io/}{stanfordasl.github.io}), developing frameworks for safe real-time control handoffs during OOD scenarios.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -135,11 +135,10 @@
 
 %-----------SKILLS-----------------
 \vspace{4pt}
-\section{Skills}
-  \resumeSubHeadingListStart
-    \resumeSubItem{Languages}{Python, C/C++, Go, Java, JavaScript, SQL, Shell}
-    \resumeSubItem{ML/AI}{PyTorch, TensorFlow, OpenCV, ONNX, TensorRT, Hugging Face, scikit-learn}
-    \resumeSubItem{Infrastructure}{AWS, GCP, Docker, Kubernetes, Git, CI/CD, Linux}
-    \resumeSubItem{Domains}{Computer Vision, Object Detection, Manufacturing ML, Autonomous Driving, Human-Autonomy Interaction}
-  \resumeSubHeadingListEnd
+\section{Technical Skills}
+\begin{tabular*}{0.97\textwidth}{@{}l@{\hskip 12pt}l@{}}
+  \textbf{Languages:} & Python, C/C++, Go, Java, JavaScript, SQL \\
+  \textbf{ML/AI:} & PyTorch, TensorFlow, OpenCV, Reinforcement Learning, LLMs, RAG \\
+  \textbf{Infrastructure:} & AWS, GCP, Docker, Kubernetes \\
+\end{tabular*}
 \end{document}
