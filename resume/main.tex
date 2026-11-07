@@ -11,7 +11,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
@@ -37,6 +37,7 @@
 \titleformat{\section}{
   \vspace{-3pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+\titlespacing*{\section}{0pt}{18pt}{6pt}
 
 %-------------------------
 % Custom commands
@@ -46,7 +47,7 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{#3} & \textit{#4} \\
     \end{tabular*}\vspace{-5pt}
@@ -59,7 +60,7 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -77,18 +78,24 @@
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
-\vspace{2pt}
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading{Tesla}{Fremont, CA}
-      {Senior Machine Learning Engineer}{Dec 2022 -- Present}
+      {Tech Lead, Generative AI -- Inference \& GPU Engineering}{Apr 2026 -- Present}
       \resumeItemListStart
-        \resumeItem{Leading ML research and development across 4 global factories, spanning vision-guided robotics, large-scale manufacturing defect detection, and core ML infrastructure for an internal computer vision training platform.}
-        \resumeItem{Investigating the open problem of factory-aware foundation models -- how to learn visual representations that encode manufacturing domain priors and generalize across diverse production environments, inspection modalities, and defect taxonomies.}
-        \resumeItem{Formulated robust transfer and imitation learning approaches for adapting large pretrained vision models to novel factory domains with minimal labeled data, studying the conditions under which few-shot domain adaptation preserves detection fidelity.}
-        \resumeItem{Researched knowledge distillation strategies for compressing high-capacity teacher networks into lightweight student models deployable at real-time edge inference latencies, analyzing accuracy--efficiency trade-offs in resource-constrained manufacturing settings.}
-        \resumeItem{Designed and evaluated production computer vision systems for automated quality inspection, contributing empirical insights on deploying learned models in high-throughput, low-intervention industrial pipelines.}
+        \resumeItem{Spearheading Tesla's generative AI inference gateway, serving \textbf{30M+ requests} and \textbf{$\sim$2T tokens} daily across LLM and multimodal models, and setting direction for serving, GPU performance, and RL post-training.}
+        \resumeItem{Architected on-prem GPU infrastructure saving \textbf{$\sim$\$10M/year}, including a SLURM cluster co-scheduling training and inference, a Mooncake-based KV cache store, and rollout pipelines for LLM RL post-training.}
+        \resumeItem{Directing NVIDIA and AMD partnerships that achieved \textbf{2.8$\times$ throughput} over baseline serving stacks on Tesla's hardware through custom inference recipes and kernel engineering.}
+      \resumeItemListEnd
+      \vspace{2pt}
+      \begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+        \textit{Senior Machine Learning Engineer -- Manufacturing AI} & \textit{Dec 2022 -- Apr 2026} \\
+      \end{tabular*}\vspace{-5pt}
+      \resumeItemListStart
+        \resumeItem{Led ML development across 4 global factories, spanning vision-guided robotics, large-scale defect detection, and core infrastructure for an internal computer vision training platform.}
+        \resumeItem{Developed few-shot domain adaptation and knowledge distillation methods to adapt large pretrained vision models to new factory domains and compress them for real-time edge inference.}
+        \resumeItem{Shipped production computer vision systems for automated quality inspection on high-throughput lines.}
       \resumeItemListEnd
 
     \resumeSubheading{Ponder (Stealth)}{Remote}
@@ -99,10 +106,10 @@
         \resumeItem{Built end-to-end backend infrastructure including API design, audio generation, and serving systems to support real-time podcast creation at scale.}
       \resumeItemListEnd
 
-    \resumeSubheading{University of California, Berkeley -- VeHICal}{Berkeley, CA}
+    \resumeSubheading{University of California, Berkeley -- VeHICaL}{Berkeley, CA}
       {Research Engineer}{May 2021 -- Dec 2022}
       \resumeItemListStart
-        \resumeItem{Led research on safe autonomous-to-human perception handoffs under Professors Sanjit Seshia and Bjoern Hartmann (\href{https://vehical.org}{vehical.org}), formalizing stochastic models for verified human-autonomy interaction.}
+        \resumeItem{Led research on safe autonomous-to-human perception handoffs under Professors Sanjit Seshia and Bj\"{o}rn Hartmann (\href{https://vehical.org}{vehical.org}), formalizing stochastic models for verified human-autonomy interaction.}
         \resumeItem{Developed VR-based human-in-the-loop experimental tools to study driver takeover scenarios with high ecological validity.}
       \resumeItemListEnd
 
@@ -115,7 +122,6 @@
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
-\vspace{4pt}
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
@@ -126,19 +132,19 @@
         \resumeItem{Coursework: Deep Learning, Machine Learning, Artificial Intelligence, Efficient Algorithms, Data Structures, Statistical Prediction, Numerical/Real/Complex Analysis, Advanced Linear Algebra, Abstract Algebra}
       \resumeItemListEnd
     \resumeSubheading
-      {Stanford University}{Palo Alto, CA}
-      {Certificate in Computer Science}{May 2018 -- Sept 2018}
+      {Stanford University}{Stanford, CA}
+      {Certificate in Computer Science}{May 2018 -- Sep 2018}
       \resumeItemListStart
         \resumeItem{Coursework: Data Mining and Analysis, Client-Side Internet Technologies}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------------
-\vspace{4pt}
 \section{Technical Skills}
 \begin{tabular*}{0.97\textwidth}{@{}l@{\hskip 12pt}l@{}}
   \textbf{Languages:} & Python, C/C++, Go, Java, JavaScript, SQL \\
-  \textbf{ML/AI:} & PyTorch, TensorFlow, OpenCV, Reinforcement Learning, LLMs, RAG \\
+  \textbf{ML/AI:} & PyTorch, TensorFlow, OpenCV, LLMs, RL Post-Training (RLHF, GRPO), RAG \\
+  \textbf{Inference/GPU:} & LLM Serving, vLLM, CUDA, ROCm, SLURM, Mooncake \\
   \textbf{Infrastructure:} & AWS, GCP, Docker, Kubernetes \\
 \end{tabular*}
 \end{document}
